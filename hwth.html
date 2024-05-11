@@ -17,9 +17,10 @@
             justify-content: flex-start;
         }
         img {
-            width: 50%; /* Adjust width to 50% of the viewport */
+            width: 100%; /* Adjust width to 100% of the viewport */
+            height: 100vh; /* Adjust height to 100% of the viewport */
+            object-fit: cover; /* Ensure the image covers the entire viewport */
             display: block;
-            margin: 0 auto; /* Center the image */
         }
         h1 {
             text-align: center;
@@ -49,6 +50,6 @@
 </head>
 <body>
     <img src="https://hwth-demo-3.s3.amazonaws.com/ndapp-img.png" alt="Descriptive Image Text">
-
 </body>
 </html>
+
